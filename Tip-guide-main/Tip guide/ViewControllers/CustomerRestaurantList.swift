@@ -22,7 +22,13 @@ class  CustomerRestaurantList : UIViewController {
     @IBAction func thirdRestaurantIn(_ sender: UIButton) {
         self.performSegue(withIdentifier: "thirdRestaurant", sender: self)
     }
-    @IBAction func tipInput(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "tipInputPage", sender: self)
+    @IBAction func guideMyTip1(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "guideMyTip1", sender: self)
+    }
+    @IBAction func guideMyTip2(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "guideMyTip2", sender: self)
+    }
+    @IBAction func guideMyTip3(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "guideMyTip3", sender: self)
     }
 }
