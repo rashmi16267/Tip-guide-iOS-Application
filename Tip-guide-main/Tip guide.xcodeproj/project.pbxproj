@@ -10,7 +10,24 @@
 		400347F4265E2B3000688558 /* RestaurantThreeRatingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400347F3265E2B3000688558 /* RestaurantThreeRatingsViewController.swift */; };
 		406F99F7265E497400B2A792 /* RestaurantThreeReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406F99F6265E497400B2A792 /* RestaurantThreeReviewsViewController.swift */; };
 		406F99F9265E49DC00B2A792 /* RestaurantThreeImprovementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406F99F8265E49DC00B2A792 /* RestaurantThreeImprovementViewController.swift */; };
-		4B5617BF265BCCFB009E6886 /* SelectRestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5617BE265BCCFB009E6886 /* SelectRestaurantsViewController.swift */; };
+		4095A5A1266504C00090554F /* InputBillRestaurantOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5A0266504C00090554F /* InputBillRestaurantOneViewController.swift */; };
+		4095A5A32665051E0090554F /* InputBillRestaurantTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5A22665051E0090554F /* InputBillRestaurantTwoViewController.swift */; };
+		4095A5A5266505310090554F /* InputBillRestaurantThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5A4266505310090554F /* InputBillRestaurantThreeViewController.swift */; };
+		4095A5A72665060C0090554F /* RateExperienceRestaurantOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5A62665060C0090554F /* RateExperienceRestaurantOneViewController.swift */; };
+		4095A5A9266506430090554F /* RateExperienceRestaurantTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5A8266506430090554F /* RateExperienceRestaurantTwoViewController.swift */; };
+		4095A5AB2665065F0090554F /* RateExperienceRestaurantThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5AA2665065F0090554F /* RateExperienceRestaurantThreeViewController.swift */; };
+		4095A5AD266507BE0090554F /* TipCalculationRestaurantOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5AC266507BE0090554F /* TipCalculationRestaurantOneViewController.swift */; };
+		4095A5AF266507F20090554F /* TipCalculationRestaurantTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5AE266507F20090554F /* TipCalculationRestaurantTwoViewController.swift */; };
+		4095A5B1266508050090554F /* TipCalculationRestaurantThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5B0266508050090554F /* TipCalculationRestaurantThreeViewController.swift */; };
+		4095A5B3266508CA0090554F /* WriteReviewRestaurantOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5B2266508CA0090554F /* WriteReviewRestaurantOneViewController.swift */; };
+		4095A5B5266509190090554F /* WriteReviewRestaurantTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5B4266509190090554F /* WriteReviewRestaurantTwoViewController.swift */; };
+		4095A5B7266509300090554F /* WriteReviewRestaurantThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5B6266509300090554F /* WriteReviewRestaurantThreeViewController.swift */; };
+		4095A5B926654AE90090554F /* RestaurantsOneReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5B826654AE90090554F /* RestaurantsOneReviewsViewController.swift */; };
+		4095A5BD26654B4A0090554F /* RestaurantsTwoReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5BC26654B4A0090554F /* RestaurantsTwoReviewsViewController.swift */; };
+		4095A5C126654C860090554F /* RestaurantOneImprovementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5C026654C860090554F /* RestaurantOneImprovementViewController.swift */; };
+		4095A5C326654C9D0090554F /* RestaurantTwoImprovementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5C226654C9D0090554F /* RestaurantTwoImprovementViewController.swift */; };
+		4095A5C526654D020090554F /* RestauarantOneRatingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5C426654D010090554F /* RestauarantOneRatingsViewController.swift */; };
+		4095A5C726654D190090554F /* RestaurantTwoRatingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4095A5C626654D190090554F /* RestaurantTwoRatingsViewController.swift */; };
 		4B5617C2265BD862009E6886 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5617C1265BD862009E6886 /* WelcomeViewController.swift */; };
 		4B5617C4265BF37F009E6886 /* MoreInfoRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5617C3265BF37F009E6886 /* MoreInfoRestaurant.swift */; };
 		4B57FE97265CF7AA00A71B02 /* CustomerRestaurantList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57FE96265CF7AA00A71B02 /* CustomerRestaurantList.swift */; };
@@ -48,7 +65,24 @@
 		400347F3265E2B3000688558 /* RestaurantThreeRatingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantThreeRatingsViewController.swift; sourceTree = "<group>"; };
 		406F99F6265E497400B2A792 /* RestaurantThreeReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantThreeReviewsViewController.swift; sourceTree = "<group>"; };
 		406F99F8265E49DC00B2A792 /* RestaurantThreeImprovementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantThreeImprovementViewController.swift; sourceTree = "<group>"; };
-		4B5617BE265BCCFB009E6886 /* SelectRestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRestaurantsViewController.swift; sourceTree = "<group>"; };
+		4095A5A0266504C00090554F /* InputBillRestaurantOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBillRestaurantOneViewController.swift; sourceTree = "<group>"; };
+		4095A5A22665051E0090554F /* InputBillRestaurantTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBillRestaurantTwoViewController.swift; sourceTree = "<group>"; };
+		4095A5A4266505310090554F /* InputBillRestaurantThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBillRestaurantThreeViewController.swift; sourceTree = "<group>"; };
+		4095A5A62665060C0090554F /* RateExperienceRestaurantOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateExperienceRestaurantOneViewController.swift; sourceTree = "<group>"; };
+		4095A5A8266506430090554F /* RateExperienceRestaurantTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateExperienceRestaurantTwoViewController.swift; sourceTree = "<group>"; };
+		4095A5AA2665065F0090554F /* RateExperienceRestaurantThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateExperienceRestaurantThreeViewController.swift; sourceTree = "<group>"; };
+		4095A5AC266507BE0090554F /* TipCalculationRestaurantOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculationRestaurantOneViewController.swift; sourceTree = "<group>"; };
+		4095A5AE266507F20090554F /* TipCalculationRestaurantTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculationRestaurantTwoViewController.swift; sourceTree = "<group>"; };
+		4095A5B0266508050090554F /* TipCalculationRestaurantThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculationRestaurantThreeViewController.swift; sourceTree = "<group>"; };
+		4095A5B2266508CA0090554F /* WriteReviewRestaurantOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReviewRestaurantOneViewController.swift; sourceTree = "<group>"; };
+		4095A5B4266509190090554F /* WriteReviewRestaurantTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReviewRestaurantTwoViewController.swift; sourceTree = "<group>"; };
+		4095A5B6266509300090554F /* WriteReviewRestaurantThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteReviewRestaurantThreeViewController.swift; sourceTree = "<group>"; };
+		4095A5B826654AE90090554F /* RestaurantsOneReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsOneReviewsViewController.swift; sourceTree = "<group>"; };
+		4095A5BC26654B4A0090554F /* RestaurantsTwoReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsTwoReviewsViewController.swift; sourceTree = "<group>"; };
+		4095A5C026654C860090554F /* RestaurantOneImprovementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantOneImprovementViewController.swift; sourceTree = "<group>"; };
+		4095A5C226654C9D0090554F /* RestaurantTwoImprovementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTwoImprovementViewController.swift; sourceTree = "<group>"; };
+		4095A5C426654D010090554F /* RestauarantOneRatingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauarantOneRatingsViewController.swift; sourceTree = "<group>"; };
+		4095A5C626654D190090554F /* RestaurantTwoRatingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTwoRatingsViewController.swift; sourceTree = "<group>"; };
 		4B5617C1265BD862009E6886 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4B5617C3265BF37F009E6886 /* MoreInfoRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoRestaurant.swift; sourceTree = "<group>"; };
 		4B57FE96265CF7AA00A71B02 /* CustomerRestaurantList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRestaurantList.swift; sourceTree = "<group>"; };
@@ -100,16 +134,33 @@
 			isa = PBXGroup;
 			children = (
 				4B6917092635B726000E4174 /* FirstViewController.swift */,
-				4B5617BE265BCCFB009E6886 /* SelectRestaurantsViewController.swift */,
 				4B5617C1265BD862009E6886 /* WelcomeViewController.swift */,
 				4B5617C3265BF37F009E6886 /* MoreInfoRestaurant.swift */,
 				4B57FE96265CF7AA00A71B02 /* CustomerRestaurantList.swift */,
-				4B57FE98265D024100A71B02 /* restaurantThreeownerViewController.swift */,
-				4B57FE9A265D086A00A71B02 /* restaurantTwoOwnerView.swift */,
 				4B57FE9C265D097600A71B02 /* restaurantOneOwnerView.swift */,
+				4B57FE9A265D086A00A71B02 /* restaurantTwoOwnerView.swift */,
+				4B57FE98265D024100A71B02 /* restaurantThreeownerViewController.swift */,
+				4095A5C426654D010090554F /* RestauarantOneRatingsViewController.swift */,
+				4095A5C626654D190090554F /* RestaurantTwoRatingsViewController.swift */,
 				400347F3265E2B3000688558 /* RestaurantThreeRatingsViewController.swift */,
+				4095A5B826654AE90090554F /* RestaurantsOneReviewsViewController.swift */,
+				4095A5BC26654B4A0090554F /* RestaurantsTwoReviewsViewController.swift */,
 				406F99F6265E497400B2A792 /* RestaurantThreeReviewsViewController.swift */,
+				4095A5C026654C860090554F /* RestaurantOneImprovementViewController.swift */,
+				4095A5C226654C9D0090554F /* RestaurantTwoImprovementViewController.swift */,
 				406F99F8265E49DC00B2A792 /* RestaurantThreeImprovementViewController.swift */,
+				4095A5A0266504C00090554F /* InputBillRestaurantOneViewController.swift */,
+				4095A5A22665051E0090554F /* InputBillRestaurantTwoViewController.swift */,
+				4095A5A4266505310090554F /* InputBillRestaurantThreeViewController.swift */,
+				4095A5AC266507BE0090554F /* TipCalculationRestaurantOneViewController.swift */,
+				4095A5AE266507F20090554F /* TipCalculationRestaurantTwoViewController.swift */,
+				4095A5B0266508050090554F /* TipCalculationRestaurantThreeViewController.swift */,
+				4095A5B2266508CA0090554F /* WriteReviewRestaurantOneViewController.swift */,
+				4095A5B4266509190090554F /* WriteReviewRestaurantTwoViewController.swift */,
+				4095A5B6266509300090554F /* WriteReviewRestaurantThreeViewController.swift */,
+				4095A5A62665060C0090554F /* RateExperienceRestaurantOneViewController.swift */,
+				4095A5A8266506430090554F /* RateExperienceRestaurantTwoViewController.swift */,
+				4095A5AA2665065F0090554F /* RateExperienceRestaurantThreeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -298,16 +349,33 @@
 			files = (
 				4B69170A2635B726000E4174 /* FirstViewController.swift in Sources */,
 				406F99F9265E49DC00B2A792 /* RestaurantThreeImprovementViewController.swift in Sources */,
+				4095A5A32665051E0090554F /* InputBillRestaurantTwoViewController.swift in Sources */,
+				4095A5B1266508050090554F /* TipCalculationRestaurantThreeViewController.swift in Sources */,
 				4B57FE97265CF7AA00A71B02 /* CustomerRestaurantList.swift in Sources */,
+				4095A5A1266504C00090554F /* InputBillRestaurantOneViewController.swift in Sources */,
 				4B5617C2265BD862009E6886 /* WelcomeViewController.swift in Sources */,
-				4B5617BF265BCCFB009E6886 /* SelectRestaurantsViewController.swift in Sources */,
+				4095A5C726654D190090554F /* RestaurantTwoRatingsViewController.swift in Sources */,
+				4095A5C526654D020090554F /* RestauarantOneRatingsViewController.swift in Sources */,
+				4095A5C326654C9D0090554F /* RestaurantTwoImprovementViewController.swift in Sources */,
 				4B6917062635B726000E4174 /* AppDelegate.swift in Sources */,
+				4095A5A5266505310090554F /* InputBillRestaurantThreeViewController.swift in Sources */,
+				4095A5AF266507F20090554F /* TipCalculationRestaurantTwoViewController.swift in Sources */,
+				4095A5BD26654B4A0090554F /* RestaurantsTwoReviewsViewController.swift in Sources */,
+				4095A5B3266508CA0090554F /* WriteReviewRestaurantOneViewController.swift in Sources */,
+				4095A5A72665060C0090554F /* RateExperienceRestaurantOneViewController.swift in Sources */,
 				4B57FE9B265D086A00A71B02 /* restaurantTwoOwnerView.swift in Sources */,
 				4B6917082635B726000E4174 /* SceneDelegate.swift in Sources */,
+				4095A5C126654C860090554F /* RestaurantOneImprovementViewController.swift in Sources */,
 				4B57FE99265D024100A71B02 /* restaurantThreeownerViewController.swift in Sources */,
+				4095A5A9266506430090554F /* RateExperienceRestaurantTwoViewController.swift in Sources */,
+				4095A5B926654AE90090554F /* RestaurantsOneReviewsViewController.swift in Sources */,
 				4B57FE9D265D097600A71B02 /* restaurantOneOwnerView.swift in Sources */,
 				4B5617C4265BF37F009E6886 /* MoreInfoRestaurant.swift in Sources */,
 				406F99F7265E497400B2A792 /* RestaurantThreeReviewsViewController.swift in Sources */,
+				4095A5B5266509190090554F /* WriteReviewRestaurantTwoViewController.swift in Sources */,
+				4095A5AD266507BE0090554F /* TipCalculationRestaurantOneViewController.swift in Sources */,
+				4095A5AB2665065F0090554F /* RateExperienceRestaurantThreeViewController.swift in Sources */,
+				4095A5B7266509300090554F /* WriteReviewRestaurantThreeViewController.swift in Sources */,
 				400347F4265E2B3000688558 /* RestaurantThreeRatingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
