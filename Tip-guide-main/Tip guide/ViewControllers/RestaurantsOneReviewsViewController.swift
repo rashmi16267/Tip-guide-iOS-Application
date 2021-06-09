@@ -11,7 +11,7 @@ import UIKit
 
 class RestaurantOneReviewsViewController : UIViewController {
     
-    @IBOutlet weak var lbl: UILabel!
+    @IBOutlet weak var lbl: UITextView!
     var reviewRestaurant1 : String = ""
     override func viewDidLoad() {
         super.viewDidLoad()

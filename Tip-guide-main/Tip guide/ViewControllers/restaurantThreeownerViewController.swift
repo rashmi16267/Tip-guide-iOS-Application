@@ -16,10 +16,10 @@ class restaurantThreeownerViewController : UIViewController {
     @IBAction func ratingButton(_ sender: UIButton) {
         self.performSegue(withIdentifier: "ratingDisplayRestaurantThree", sender: self)
     }
-    @IBAction func displayReviews(_ sender: UIButton) {
+    @IBAction func customerReviewDisplayButton(_ sender: UIButton) {
         self.performSegue(withIdentifier: "showCustomerReviewRestaurantThree", sender: self)
     }
-    @IBAction func displayRoomForImprovementButton(_ sender: UIButton) {
+    @IBAction func roomForImprovementButton(_ sender: UIButton) {
         self.performSegue(withIdentifier: "showRoomForImprovementRestaurantThree", sender: self)
     }
 }

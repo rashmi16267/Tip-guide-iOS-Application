@@ -9,10 +9,16 @@ import Foundation
 import UIKit
 
 class TipCalculationRestaurantOneViewController : UIViewController {
-   
+    @IBOutlet weak var billAmt : UILabel!
+    @IBOutlet weak var tipAmt : UILabel!
+    var billAmount : Int = 0
+    var calculatedTip : Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Calculated Tip"
+        billAmt.text = String(billAmount)
+        tipAmt.text = String(calculatedTip)
     }
     
     @IBAction func writeReviewButton(_ sender: UIButton) {
