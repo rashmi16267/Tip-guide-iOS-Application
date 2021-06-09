@@ -10,7 +10,7 @@ import UIKit
 
 public class WriteReviewRestaurantOneViewController : UIViewController {
     
-    @IBOutlet weak var reviewDisplay: UILabel!
+    @IBOutlet weak var reviewDisplay: UITextField!
     public var reviewRestaurant1 : String = ""
     public override func viewDidLoad() {
         super.viewDidLoad()

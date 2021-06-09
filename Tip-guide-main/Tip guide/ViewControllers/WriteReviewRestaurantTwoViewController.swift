@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 public class WriteReviewRestaurantTwoViewController : UIViewController {
-    @IBOutlet weak var reviewDisplay: UILabel!
+    @IBOutlet weak var reviewDisplay: UITextField!
     public var reviewRestaurant2 : String = ""
     public override func viewDidLoad() {
         super.viewDidLoad()
