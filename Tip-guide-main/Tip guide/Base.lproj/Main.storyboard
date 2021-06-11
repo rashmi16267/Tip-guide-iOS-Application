@@ -757,8 +757,11 @@ Will definitely be visiting again.</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ga5-GJ-ynH">
                                 <rect key="frame" x="20" y="99" width="240" height="153"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
-                                <state key="normal" title="Info"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" title="Info">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="firstRestaurantIn:" destination="p4s-Dc-uPj" eventType="touchUpInside" id="WMu-7U-Coz"/>
                                 </connections>
@@ -789,7 +792,11 @@ Will definitely be visiting again.</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57E-bD-0Zt">
                                 <rect key="frame" x="20" y="357" width="240" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="info"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" title="info">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="secondRestaurantIn:" destination="p4s-Dc-uPj" eventType="touchUpInside" id="BXY-PW-lI2"/>
                                 </connections>
@@ -808,7 +815,12 @@ Will definitely be visiting again.</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6JU-Qf-ELr">
                                 <rect key="frame" x="20" y="607" width="240" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <size key="titleShadowOffset" width="3" height="3"/>
+                                <state key="normal" title="Info">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="thirdRestaurantIn:" destination="p4s-Dc-uPj" eventType="touchUpInside" id="L6I-6D-dDo"/>
                                 </connections>
@@ -1745,11 +1757,11 @@ Will definitely be visiting again.</string>
                                 <rect key="frame" x="54" y="366" width="307" height="487"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">The Sunday Brunch at the JW Kitchen is a local favourite. The experience takes you on a worldwide culinary adventure and features delicacies from around the globe, most cooked live and to your preference! The JW Kitchen is also the new music venue, playing your favourite music LIVE, that varies weekly. All this make for a relaxing and hassle free brunch – just the way a Sunday should be! The most popular attraction is the dessert buffet which extends itself into the Candy Wall, created especially for our little VIPs. From Fairies and Knights to Super Heroes they have got them all. 
+                                <string key="text">The Sunday Brunch at the JW Kitchen is a local favourite. The experience takes you on a worldwide culinary adventure and features delicacies from around the globe, most cooked live and to your preference! The JW Kitchen is also the new music venue, playing your favourite music LIVE, that varies weekly. All this make for a relaxing and hassle free brunch – just the way a Sunday should be! The most popular attraction is the dessert buffet which extends itself into the Candy Wall, created especially for our little VIPs. From Fairies and Knights to Super Heroes they have got them all. 
 
 Located in: JW Marriott Hotel Bengaluru
 Address: 24, 1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001
-Hours: 11:30AM - 9PM </mutableString>
+Hours: 11:30AM - 9PM </string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
