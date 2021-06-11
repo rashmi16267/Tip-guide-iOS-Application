@@ -14,6 +14,6 @@ class RestaurantTwoRatingsViewController : UIViewController {
         title = "Restaurant Rating"
     }
     @IBAction func displayRoomForImprovementButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "showRoomForImprovementRestaurantThree", sender: self)
+        self.performSegue(withIdentifier: "showRoomForImprovementRestaurantTwo", sender: self)
     }
 }

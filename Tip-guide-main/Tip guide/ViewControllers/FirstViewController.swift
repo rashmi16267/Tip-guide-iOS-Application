@@ -25,11 +25,11 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func customerViewOfRestaurant(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "CustomerView", sender: self)
+       // self.performSegue(withIdentifier: "CustomerView", sender: self)
     }
     @IBAction func restuarantListButton(_ sender: UIButton) {
         print("restuarant button pressed")
-        self.performSegue(withIdentifier: "SelectRestaurant", sender: self)
+        //self.performSegue(withIdentifier: "SelectRestaurant", sender: self)
     }
     
 }

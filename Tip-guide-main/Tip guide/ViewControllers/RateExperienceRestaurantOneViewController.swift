@@ -24,14 +24,33 @@ public class RateExperienceRestaurantOneViewController : UIViewController {
     public var ar : Int = 1
     public var sr : Int = 1
     public var hr : Int = 1
-    public var bill : Int = 1
-    public var billAmt : Int = 1
-    public var n = 0
-    public var x : Int = 1
-    public var tipamt : Int = 0
+    public var bill: Int!
+    public var billAmt : Int!
+    public var perc : Int!
+    public var n : Double = 1.0
+    public var x : Double = 1.0
+    public var ta : Double = 1.0
+    public var y : Double = 1.0
+    public var tipamt : Int!
     
-    var billAmount : Int = 1
-    var calculatedTip : Int = 1
+    
+    var billAmount : Int!
+      var calculatedTip : Int!
+    
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        title = "Rate Experience"
+        
+          print("result --> \(billAmt!)")
+        bill = billAmt
+      
+        print("result 2 --> \(bill!)")
+  
+    }
+    
+   
+         
+    
     
     @IBAction func foodUIStepper(_ sender: UIStepper) {
         foodRating.text = String(sender.value)
@@ -59,39 +78,54 @@ public class RateExperienceRestaurantOneViewController : UIViewController {
     }
    
     
-   
+  
     
     
-    public override func viewDidLoad() {
-        super.viewDidLoad()
-        title = "Rate Experience"
-        bill = billAmt
+    func calculation() {
+              let a = Double(fr)
+              let b = Double(ar)
+              let c = Double(sr)
+              let d = Double(hr)
         
-        let a = fr
-        let b = ar
-        let c = sr
-        let d = hr
+        let n: Double = a+b+c+d
         
-        n = a+b+c+d
+        print("result3 --> \(n)")
         
-        tipamt = bill % n
+        x = n/100
+        
+        y = Double(bill)
+    
+        ta = x * y
+        
+        tipamt = Int(ta)
 
-    }
-    
+        print("result4 --> \(tipamt!)")
+        
+         
+              }
+              
     
     
     @IBAction func nextButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "nextButton", sender: self)
-        billAmount = bill
-        calculatedTip = tipamt
+        // self.performSegue(withIdentifier: "nextButton", sender: self)
+        
+        
     }
     
     public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "MySegueID" {
             if let destination = segue.destination as? TipCalculationRestaurantOneViewController {
-                destination.billAmount = self.billAmt
-                destination.calculatedTip = self.calculatedTip
+                
+                
+                 //billAmount = bill
+                //calculatedTip = tipamt
+                
+                self.calculation()
+                
+                destination.value1 = self.bill
+                destination.value2 = self.tipamt
             }
         }
     }
 }
+

@@ -11,14 +11,15 @@ import UIKit
 class TipCalculationRestaurantOneViewController : UIViewController {
     @IBOutlet weak var billAmt : UILabel!
     @IBOutlet weak var tipAmt : UILabel!
-    var billAmount : Int = 0
-    var calculatedTip : Int = 0
+    var value1 : Int!
+    var value2 : Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Calculated Tip"
-        billAmt.text = String(billAmount)
-        tipAmt.text = String(calculatedTip)
+        print("\(value1!), \(value2!)")
+         billAmt.text = String(value1)
+        tipAmt.text = String(value2)
     }
     
     @IBAction func writeReviewButton(_ sender: UIButton) {

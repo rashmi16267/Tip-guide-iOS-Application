@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 public class RateExperienceRestaurantTwoViewController : UIViewController {
+    
     @IBOutlet weak var foodRating : UILabel!
     @IBOutlet weak var ambienceRating : UILabel!
     @IBOutlet weak var serviceRating : UILabel!
@@ -19,37 +20,36 @@ public class RateExperienceRestaurantTwoViewController : UIViewController {
     @IBOutlet weak var serviceUIStepper: UIStepper!
     @IBOutlet weak var hygieneUIStepper: UIStepper!
 */
-    public var fr : Int = 0
-    public var ar : Int = 0
-    public var sr : Int = 0
-    public var hr : Int = 0
-    public var bill : Int = 0
-    public var billAmt : Int = 0
-    public var perc : Int = 0
-    public var n = 0
-    public var x : Int = 0
-    public var tipamt : Int = 0
+    public var fr : Int = 1
+    public var ar : Int = 1
+    public var sr : Int = 1
+    public var hr : Int = 1
+    public var bill: Int!
+    public var billAmt : Int!
+    public var perc : Int!
+    public var n : Double = 1.0
+    public var x : Double = 1.0
+    public var ta : Double = 1.0
+    public var y : Double = 1.0
+    public var tipamt : Int!
+    
+    
+    var billAmount : Int!
+      var calculatedTip : Int!
     
     public override func viewDidLoad() {
         super.viewDidLoad()
         title = "Rate Experience"
+        
+          print("result --> \(billAmt!)")
         bill = billAmt
-        
-        
-        
-        func calculation(n : inout Int) -> Int {
-        let a = fr
-        let b = ar
-        let c = sr
-        let d = hr
-        n = a+b+c+d
-        return n
-        }
-        
-        let perc = calculation(n: &x)
-        tipamt = bill % perc
-
+      
+        print("result 2 --> \(bill!)")
+  
     }
+    
+   
+         
     
     
     @IBAction func foodUIStepper(_ sender: UIStepper) {
@@ -78,23 +78,54 @@ public class RateExperienceRestaurantTwoViewController : UIViewController {
     }
    
     
-    var billAmount : Int = 0
-    var calculatedTip : Int = 0
+  
     
+    
+    func calculation() {
+              let a = Double(fr)
+              let b = Double(ar)
+              let c = Double(sr)
+              let d = Double(hr)
+        
+        let n: Double = a+b+c+d
+        
+        print("result3 --> \(n)")
+        
+        x = n/100
+        
+        y = Double(bill)
+    
+        ta = x * y
+        
+        tipamt = Int(ta)
+
+        print("result4 --> \(tipamt!)")
+        
+         
+              }
+              
     
     
     @IBAction func nextButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "nextButton", sender: self)
-        billAmount = bill
-        calculatedTip = tipamt
+        // self.performSegue(withIdentifier: "nextButton", sender: self)
+        
+        
     }
     
     public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "MySegueID" {
             if let destination = segue.destination as? TipCalculationRestaurantTwoViewController {
-                destination.billAmount = self.billAmount
-                destination.calculatedTip = self.calculatedTip
+                
+                
+                 //billAmount = bill
+                //calculatedTip = tipamt
+                
+                self.calculation()
+                
+                destination.value1 = self.bill
+                destination.value2 = self.tipamt
             }
         }
     }
 }
+
