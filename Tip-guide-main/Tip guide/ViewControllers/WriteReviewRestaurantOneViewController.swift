@@ -25,7 +25,7 @@ public class WriteReviewRestaurantOneViewController : UIViewController {
     }
     
     public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "MySegueID" {
+        if segue.identifier == "submit" {
             if let destination = segue.destination as? RestaurantOneReviewsViewController {
                 destination.reviewRestaurant1 = self.reviewRestaurant1
             }
