@@ -9,3 +9,5 @@ ABSTRACT
 - The recommendation for the tip will be calculated according to the bill and the quality of the experience at the given place for the particular customer. 
 - Restaurants may use this app to view first-hand reviews from their customers and check the specific areas (food, ambiance, service, hygiene) that require improvement. 
 - This project is an iOS application developed using Swift language on Xcode, targeting iOS platforms.
+
+Application Walkthrough :https://youtu.be/D68pXo2OWgI
