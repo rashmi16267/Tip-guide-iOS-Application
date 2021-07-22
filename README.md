@@ -7,5 +7,5 @@ ABSTRACT
 - The mobile application, Tip Guide, is a guide to tipping according to the quality of the service. 
 - Customers will also be able to rate and write reviews on the restaurant/service. 
 - The recommendation for the tip will be calculated according to the bill and the quality of the experience at the given place for the particular customer. 
-- Restaurants may use this app to view first hand reviews from their customers and check the specific areas (food, ambience, service, hygiene) that require improvement. 
+- Restaurants may use this app to view first-hand reviews from their customers and check the specific areas (food, ambiance, service, hygiene) that require improvement. 
 - This project is an iOS application developed using Swift language on Xcode, targeting iOS platforms.
